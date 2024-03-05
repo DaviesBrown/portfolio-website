@@ -6,7 +6,7 @@
 	import { HOME, getPlatfromIcon } from '$lib/params';
 	import MY_SKILLS from '$lib/skills.params';
 	import { useTitle } from '$lib/utils/helpers';
-	import { isBlank } from '@riadh-adrani/utils';
+	import { isBlank } from '@nwosu-david/utils';
 
 	const { description, lastName, links, name, title, skills } = HOME;
 

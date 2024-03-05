@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { convertNamedToHexColor, type NamedColor } from '$lib/utils/colors';
-	import { changeColorOpacity, isHexColor } from '@riadh-adrani/utils';
+	import { changeColorOpacity, isHexColor } from '@nwosu-david/utils';
 	import { onMount } from 'svelte';
 	import type { MouseEventHandler } from 'svelte/elements';
 

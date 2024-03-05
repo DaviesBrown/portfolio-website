@@ -4,7 +4,7 @@
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import { EXPERIENCES } from '$lib/params';
 	import type { Experience } from '$lib/types';
-	import { isBlank } from '@riadh-adrani/utils';
+	import { isBlank } from '@nwosu-david/utils';
 
 	const { items, title } = EXPERIENCES;
 
