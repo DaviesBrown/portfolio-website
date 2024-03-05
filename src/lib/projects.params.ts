@@ -4,20 +4,74 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'ansible-project',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		description: 'A project using ansible to manage debian and redhat distributions of web, database and file servers',
+		shortDescription: 'Ansible Playbook for managing web, file and db servers',
+		links: [{ to: 'https://github.com/daviesbrown/ingryd_ansible_project', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Ansible Project',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('ansible', 'ssh'),
+		type: 'Configuration Management'
+	},
+	{
+		slug: 'social-connect-api',
+		color: 'green',
+		description: 'A social media API clone',
+		shortDescription: 'A social media API clone',
+		links: [{ to: 'https://github.com/daviesbrown/social-connect-api', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Social Connect API',
 		period: {
 			from: new Date()
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Social API'
+	},
+	{
+		slug: 'short-me',
+		color: 'red',
+		description: 'A website for abstracting links and making it shorter',
+		shortDescription: 'A website for abstracting links and making it shorter',
+		links: [{ to: 'https://github.com/daviesbrown/short-me', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Short Me',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('svelte', 'js', 'docker'),
+		type: 'Short Link'
+	},
+	{
+		slug: 'simple-shell',
+		color: 'yellow',
+		description: 'A basic unix shell',
+		shortDescription: 'A basic unix shell',
+		links: [{ to: 'https://github.com/daviesbrown/simple_shell', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Simple Shell',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('c'),
+		type: 'Infra Tooling'
+	},
+	{
+		slug: 'weekly-backup-script',
+		color: '#5e95e3',
+		description: 'Makes a backup of documents and system stats and database and sends the result to your email',
+		shortDescription: 'Makes a backup of documents and system stats and database and sends the result to your email',
+		links: [{ to: 'https://github.com/daviesbrown/weekly_backup_report', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Weekly Backup Script',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('linux', 'bash'),
+		type: 'Linux Admininstration'
 	},
 	{
 		slug: 'slick-portfolio-svelte',

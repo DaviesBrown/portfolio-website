@@ -14,7 +14,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Slick template with Svelte';
+export const TITLE_SUFFIX = 'Portfolio Website';
 
 export const NavBar = {
 	home: 'Home',
@@ -46,36 +46,23 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
-	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+	name: 'David',
+	lastName: 'NWOSU',
+	description: 'I am a Lagos-based Backend and Devops Engineer transitioning to the AI Stack',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/daviesbrown' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/nwosu-david'
 		},
 		{
 			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://twitter.com/nwosudavid14'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'nwosudavid77@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
@@ -96,7 +83,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'myresume.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
