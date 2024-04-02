@@ -59,10 +59,10 @@ export const HOME: HomePageParams = {
 			platform: Platform.Twitter,
 			link: 'https://twitter.com/nwosudavid14'
 		},
-		{
+		/*{
 			platform: Platform.Email,
 			link: 'nwosudavid77@gmail.com'
-		},
+		},*/
 	]
 };
 
